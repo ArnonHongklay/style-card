@@ -16,7 +16,7 @@ body {
     line-height: 1.5;
     color: #292b2c;
     background-color: #fff;
-    margin: 0;
+    margin: 0
 }
 
 .container-fluid {
@@ -24,11 +24,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     padding-right: 15px;
-    padding-left: 15px;
-}
-
-h1 {
-    font-size: 2.5rem;
+    padding-left: 15px
 }
 
 .row {
@@ -40,11 +36,26 @@ h1 {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     margin-right: -15px;
-    margin-left: -15px;
+    margin-left: -15px
+}
+
+.col {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    -webkit-flex-basis: 0;
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 100%
 }
 
 .card {
-    margin-top: 20px;
     position: relative;
     display: -webkit-box;
     display: -webkit-flex;
@@ -57,25 +68,7 @@ h1 {
     flex-direction: column;
     background-color: #fff;
     border: 1px solid rgba(0, 0, 0, .125);
-    border-radius: .25rem;
-}
-
-.col {
-    -webkit-box-flex: 0;
-    -webkit-flex: 0 0 25%;
-    -ms-flex: 0 0 25%;
-    flex: 0 0 25%;
-    padding-right: 15px;
-    padding-left: 15px;
-    max-width: 25%;
-    position: relative;
-    width: 100%;
-    min-height: 1px;
-}
-
-.card-img-top {
-    border-top-right-radius: calc(.25rem - 1px);
-    border-top-left-radius: calc(.25rem - 1px);
+    border-radius: .25rem
 }
 
 .card-block {
@@ -83,9 +76,14 @@ h1 {
     -webkit-flex: 1 1 auto;
     -ms-flex: 1 1 auto;
     flex: 1 1 auto;
-    padding: 1.25rem;
+    padding: 1.25rem
 }
 
 .card-title {
-    margin-bottom: .75rem;
+    margin-bottom: .75rem
+}
+
+.card-subtitle {
+    margin-top: -.375rem;
+    margin-bottom: 0
 }
