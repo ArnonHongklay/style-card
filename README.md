@@ -11,4 +11,4 @@ How to run this:
 open index.html
 ```
 
-Demo: https://arnonhongklay.github.io/bootstrap-card/ 
+Demo: https://arnonhongklay.github.io/style-card/ 
